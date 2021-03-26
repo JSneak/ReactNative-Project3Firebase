@@ -13,8 +13,11 @@ const firebaseConfig = {
     measurementId: "G-HSMN50L9G1"
   };
 
-if (!firebase.apps.length) {
+  if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
-}
+  }
+  
+
+
 
 export { firebase };
